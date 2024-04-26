@@ -46,7 +46,7 @@ def get_weather():
     hourly_dataframe = pd.DataFrame(data=hourly_data)
     return hourly_dataframe.to_markdown(index=None)
 
-
+command:python.viewOutput
 def send_message(message):
 
     TELEGRAM_BOT_TOKEN = os.getenv('TELEGRAM_TOKEN')
